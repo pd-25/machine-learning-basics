@@ -14,3 +14,8 @@ print(breast_csv.isnull().sum())
 print(breast_csv.duplicated().sum())
 #4. check info
 print(breast_csv.info())
+
+
+#Now Encode the targeted colum.
+#Encoding is needed because the targated column means diagnosis is in string and need to convert it in to numeric. 
+# Because this is categorical encoding, we can encode by scikitlearn Labelencoder, but we will use pandas logic here.
