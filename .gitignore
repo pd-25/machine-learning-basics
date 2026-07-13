@@ -1,1 +1,2 @@
 /datasets/*.csv
+/Breast-Cancer-Detection-LogicticRegration/model/logistic_model.pkl
